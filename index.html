@@ -2,7 +2,9 @@
 <html>
 <head>
 <title>Primakus</title>
+
 <style>
+
 body{
     background:#0f172a;
     color:white;
@@ -13,6 +15,29 @@ body{
 
 h1{
     font-size:50px;
+    color:white;
+    text-shadow:
+        2px 2px 0 black,
+        -2px 2px 0 black,
+        2px -2px 0 black,
+        -2px -2px 0 black;
+}
+
+p{
+    color:white;
+    font-size:22px;
+    text-shadow:
+        2px 2px 0 black,
+        -2px 2px 0 black,
+        2px -2px 0 black,
+        -2px -2px 0 black;
+}
+
+.star{
+    width:60px;
+    height:60px;
+    vertical-align:middle;
+    margin-right:10px;
 }
 
 .logo{
@@ -25,16 +50,28 @@ a{
     align-items:center;
     justify-content:center;
     gap:12px;
-    margin:15px;
+    margin:20px;
     color:#38bdf8;
     text-decoration:none;
     font-size:24px;
+    font-weight:bold;
+    transition:0.2s;
 }
+
+a:hover{
+    transform:scale(1.1);
+}
+
 </style>
+
 </head>
+
 <body>
 
-<h1>👑 Primakus</h1>
+<h1>
+    <img src="stars.png" class="star">
+    Primakus
+</h1>
 
 <p>Développeur • Créateur de contenu • Gamer</p>
 
@@ -44,7 +81,7 @@ a{
 </a>
 
 <a href="https://discord.com/users/1439320270514028695" target="_blank">
-    <img src="discord.png" class="logo">
+    <img src="image_2026-06-10_033436472.png" class="logo">
     Discord
 </a>
 
