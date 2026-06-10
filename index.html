@@ -52,29 +52,40 @@ p{
 .logo{
     width:70px;
     height:70px;
-    transition:all 0.25s ease;
+    transition:0.25s;
 }
 
+/* IMPORTANT */
 a{
-    display:flex;
+    display:inline-flex;
     align-items:center;
     justify-content:center;
     gap:20px;
-    margin:30px;
+
+    margin:20px auto;
+    padding:10px 20px;
+
     color:#38bdf8;
     text-decoration:none;
     font-size:50px;
     font-weight:bold;
-    transition:all 0.25s ease;
+
+    transition:0.25s;
 }
 
 a:hover{
-    transform:scale(1.12) translateY(-5px);
-    filter:drop-shadow(0 0 15px #38bdf8);
+    transform:scale(1.08);
+    filter:drop-shadow(0 0 12px #38bdf8);
 }
 
 a:hover .logo{
     transform:rotate(8deg);
+}
+
+.links{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
 }
 
 </style>
@@ -88,22 +99,26 @@ a:hover .logo{
     Primakus
 </h1>
 
-<p>Développeur Roblox • Petit Créateur De Contenu • Joueur Roblox</p>
+<p>Développeur • Créateur de contenu • Gamer</p>
 
-<a href="https://www.tiktok.com/@primakus0" target="_blank">
-    <img src="tiktok.png" class="logo">
-    TikTok
-</a>
+<div class="links">
 
-<a href="https://discord.com/users/1439320270514028695" target="_blank">
-    <img src="discord.png" class="logo">
-    Discord
-</a>
+    <a href="https://www.tiktok.com/@primakus0" target="_blank">
+        <img src="tiktok.png" class="logo">
+        TikTok
+    </a>
 
-<a href="https://youtube.com/@primakus" target="_blank">
-    <img src="youtube.png" class="logo">
-    YouTube
-</a>
+    <a href="https://discord.com/users/1439320270514028695" target="_blank">
+        <img src="discord.png" class="logo">
+        Discord
+    </a>
+
+    <a href="https://youtube.com/@primakus" target="_blank">
+        <img src="youtube.png" class="logo">
+        YouTube
+    </a>
+
+</div>
 
 </body>
 </html>
